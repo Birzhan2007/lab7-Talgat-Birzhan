@@ -1,0 +1,14 @@
+/* Стили к лабораторной 7. Подключить: import './lab7.css'; в App.jsx */
+.auth-bar { display: flex; gap: 12px; align-items: center; justify-content: flex-end;
+            padding: 8px 16px; flex-wrap: wrap; }
+.login-form, .admin-form, .password-form {
+  display: flex; flex-direction: column; gap: 8px; max-width: 320px;
+  padding: 12px 16px; border: 1px solid #ccc; border-radius: 8px; }
+.login-form h3, .admin-form h3, .password-form h3 { margin: 0 0 4px; }
+.admin-form, .orders-panel, .my-orders, .password-form { margin: 16px; }
+.error { color: #b00020; margin: 0; }
+.success { color: #1b7f3b; margin: 0; }
+.table-wrap { overflow-x: auto; }
+.orders-panel table { border-collapse: collapse; width: 100%; }
+.orders-panel th, .orders-panel td { border: 1px solid #ddd; padding: 6px 10px; text-align: left; }
+.delete-btn { margin-top: 8px; color: #b00020; }
